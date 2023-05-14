@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, TextInput, Button} from 'react-native';
 
-const App = () => {
+const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -74,4 +74,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default App;
+export default LoginPage;
